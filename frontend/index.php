@@ -5,12 +5,12 @@ use MicrosoftAzure\Storage\Blob\BlobRestProxy;
 
 
 /* Storage Account initialization */
-$connectionString = 'DefaultEndpointsProtocol=https;AccountName=nordcastvideos;AccountKey=nBz6fRxIG92qnN6iY+ULSODXTlWWlLoWerEuvLFEYzEMUH041Xnb2KOe2Fhj6rLcGlF7zkJyNiEKvjximP4+Ow==';
+$connectionString = 'DefaultEndpointsProtocol=https;AccountName=nordcastvideos;AccountKey=n***';
 $blobClient = BlobRestProxy::createBlobService($connectionString);
 
 /* CosmosDB initialization  */
 $user = "ncastdb";
-$pwd = "YHfwlwQTEeY3QgxcNwnWuuCvqhR4c50MNne6Uhk33CpJ7nkFoPIU758J6WPP89PYmPYMqPudLpRHT6sXjftJoA==";
+$pwd = "***";
 $client = new MongoDB\Client("mongodb://${user}:${pwd}@ncastdb.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@ncastdb@West Europe");
 
 
