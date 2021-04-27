@@ -27,7 +27,7 @@ if(isset($_FILES['file'])) {
         $result = $collection->insertOne( [ 
             'name' => $_POST['name'], 
             'region' => 'europe', 
-            'url' => 'https://nordcastvideos.blob.core.windows.net/videos/' . $basename,
+            'url' => 'https://nordcastcdn.azureedge.net/videos/' . $basename,
             'description' => $_POST['description']
         ] );
 
