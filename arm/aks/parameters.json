@@ -1,0 +1,42 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "loadBalancers_kubernetes_name": {
+            "value": null
+        },
+        "networkSecurityGroups_aks_agentpool_48233594_nsg_name": {
+            "value": null
+        },
+        "virtualMachineScaleSets_aks_frontend_48233594_vmss_name": {
+            "value": null
+        },
+        "virtualMachineScaleSets_aks_agentpool_48233594_vmss_name": {
+            "value": null
+        },
+        "userAssignedIdentities_omsagent_nordcastaks_name": {
+            "value": null
+        },
+        "userAssignedIdentities_nordcastaks_agentpool_name": {
+            "value": null
+        },
+        "publicIPAddresses_6c451bbf_1882_4f30_a49e_fab061ea3ce9_name": {
+            "value": null
+        },
+        "publicIPAddresses_kubernetes_add37182628784d628773f65b8778143_name": {
+            "value": null
+        },
+        "galleries_AKSUbuntu_externalid": {
+            "value": null
+        },
+        "virtualNetworks_NordCast_vnet_externalid": {
+            "value": null
+        },
+        "disks_aks_agentpool_482335aks_agentpool_4823359OS__1_91d0e2d6482f45528df3dfd3134f74bd_externalid": {
+            "value": null
+        },
+        "disks_aks_frontend_4823359aks_frontend_48233594OS__1_f35703f842e245919f9cb74e2725e741_externalid": {
+            "value": null
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "profiles_nordcastcdn_name": {
+            "value": null
+        },
+        "databaseAccounts_ncastdb_name": {
+            "value": null
+        },
+        "virtualNetworks_NordCast_vnet_name": {
+            "value": null
+        },
+        "storageAccounts_nordcastvideos_name": {
+            "value": null
+        },
+        "registries_nordcastacr_name": {
+            "value": null
+        },
+        "managedClusters_nordcastaks_name": {
+            "value": null
+        },
+        "workspaces_defaultworkspace_2148b0a3_80c8_49a8_bd3e_cc025314433a_weu_externalid": {
+            "value": null
+        },
+        "publicIPAddresses_6c451bbf_1882_4f30_a49e_fab061ea3ce9_externalid": {
+            "value": null
+        },
+        "userAssignedIdentities_nordcastaks_agentpool_externalid": {
+            "value": null
+        }
+    }
+}
